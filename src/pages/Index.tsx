@@ -64,6 +64,11 @@ const Index = () => {
           type: 'iframe' as const
         },  
         { 
+          name: 'Geo Super', 
+          url: 'https://mytools-dyz.pages.dev/tv/channel/mpd.html', 
+          type: 'iframe' as const
+        },         
+        { 
           name: 'PTV-SD', 
           url: 'https://mytools-dyz.pages.dev/hlsplayer/?url=https://c4s22.vfruitfairy.com/com1/tracks-v1a1/mono.m3u8', 
           type: 'iframe' as const
