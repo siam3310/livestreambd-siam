@@ -64,21 +64,6 @@ const Index = () => {
           type: 'iframe' as const
         },  
         { 
-          name: 'xfireflix-ct', 
-          url: 'https://restreming-content.wuaze.com/nova/player.php?id=ChampionsTrophySpecial01', 
-          type: 'iframe' as const
-        },  
-        { 
-          name: 'xfireflix-tsport', 
-          url: 'https://restreming-content.wuaze.com/nova/player.php?id=TSports', 
-          type: 'iframe' as const
-        }, 
-        { 
-          name: 'xfireflix-skycric', 
-          url: 'https://restreming-content.wuaze.com/nova/player.php?id=SkySportsCricket', 
-          type: 'iframe' as const
-        }, 
-        { 
           name: 'PTV-SD', 
           url: 'https://mytools-dyz.pages.dev/hlsplayer/?url=https://c4s22.vfruitfairy.com/com1/tracks-v1a1/mono.m3u8', 
           type: 'iframe' as const
