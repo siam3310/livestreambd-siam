@@ -58,13 +58,18 @@ const Index = () => {
       },
       streamOptions: [
         { 
-          name: 'Star Sports', 
-          url: 'https://cdn.troya.one/ch235/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iKMm9dsJ-dAThz_DhR2a0u1F-Q0mb9JeyoVH24DqhaGU', 
+          name: 'PTV-SD', 
+          url: 'https://c4s22.vfruitfairy.com/com1/tracks-v1a1/mono.m3u8', 
           type: 'clappr' as const
         },
         { 
-          name: 'Sony LIV', 
-          url: 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://cdn.troya.one/ch235/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iKMm9dsJ-dAThz_DhR2a0u1F-Q0mb9JeyoVH24DqhaGU', 
+          name: 'Willow', 
+          url: 'https://zekonew.iosplayer.ru/zeko/premium346/mono.m3u8?token=none|origin=zekonew.iosplayer.ru&referer=https://qqwebplay.xyz/', 
+          type: 'clappr' as const
+        },
+        { 
+          name: 'Willow', 
+          url: 'https://siamstv.vercel.app/hlsplayer/?url=https://zekonew.iosplayer.ru/zeko/premium346/mono.m3u8?token=none|origin=zekonew.iosplayer.ru&referer=https://qqwebplay.xyz/', 
           type: 'iframe' as const
         }
       ]
