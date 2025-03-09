@@ -20,7 +20,7 @@ const Index = () => {
 
   // Predefined match data
   const matches = [
-    {
+<!--     {
       homeTeam: { 
         name: 'Bangladesh', 
         logo: 'https://seeklogo.com/images/B/bangladesh-cricket-board-logo-8B2283D781-seeklogo.com.png' 
@@ -46,15 +46,17 @@ const Index = () => {
           type: 'clappr' as const
         }
       ]
-    },
+    },  -->
+
+
     {
       homeTeam: { 
         name: 'India', 
         logo: 'https://seeklogo.com/images/B/board-of-control-for-cricket-in-india-logo-7F557DA7A9-seeklogo.com.png' 
       },
       awayTeam: { 
-        name: 'Australia', 
-        logo: 'https://seeklogo.com/images/C/cricket-australia-logo-B7F9D8E95A-seeklogo.com.png' 
+        name: 'New Zealand', 
+        logo: 'https://images.seeklogo.com/logo-png/37/1/new-zealand-cricket-logo-png_seeklogo-370601.png' 
       },
       streamOptions: [
         { 
@@ -69,6 +71,9 @@ const Index = () => {
         }
       ]
     }
+
+
+    
   ];
 
   useEffect(() => {
