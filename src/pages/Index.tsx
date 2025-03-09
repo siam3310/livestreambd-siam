@@ -59,10 +59,25 @@ const Index = () => {
       streamOptions: [
         
         { 
-          name: 'BDIX', 
+          name: 'BDIX-moonplex', 
           url: 'https://mytools-dyz.pages.dev/hlsplayer/?url=https://mytools-dyz.pages.dev/tv/ch/bdix.m3u8', 
           type: 'iframe' as const
-        },        
+        },  
+        { 
+          name: 'xfireflix-ct', 
+          url: 'https://restreming-content.wuaze.com/nova/player.php?id=ChampionsTrophySpecial01', 
+          type: 'iframe' as const
+        },  
+        { 
+          name: 'xfireflix-tsport', 
+          url: 'https://restreming-content.wuaze.com/nova/player.php?id=TSports', 
+          type: 'iframe' as const
+        }, 
+        { 
+          name: 'xfireflix-skycric', 
+          url: 'https://restreming-content.wuaze.com/nova/player.php?id=SkySportsCricket', 
+          type: 'iframe' as const
+        }, 
         { 
           name: 'PTV-SD', 
           url: 'https://mytools-dyz.pages.dev/hlsplayer/?url=https://c4s22.vfruitfairy.com/com1/tracks-v1a1/mono.m3u8', 
@@ -189,6 +204,7 @@ const Index = () => {
 
             <section className="space-y-3">
               <h2 className="font-display text-xl text-center tracking-[0.3em]">TV CHANNELS</h2>
+              <p className="font-display text-l text-center tracking-[0.3em]" > ! Under Maintaince !</p>
               {loading ? (
                 <div className="text-center py-8">Loading channels...</div>
               ) : (
