@@ -11,7 +11,7 @@ const Index = () => {
   const [channels, setChannels] = useState<Channel[]>([]);
   const [loading, setLoading] = useState(true);
   const [currentStream, setCurrentStream] = useState({
-    url: 'https://hotflixbd.online/willow-cricket/tracks-v1a1/mono.m3u8',
+    url: 'https://mytools-dyz.pages.dev/tv/ch/bdix.m3u8',
     type: 'clappr' as 'clappr' | 'iframe'
   });
   const [expandedMatch, setExpandedMatch] = useState<number | null>(null);
@@ -57,6 +57,12 @@ const Index = () => {
         logo: 'https://images.seeklogo.com/logo-png/37/1/new-zealand-cricket-logo-png_seeklogo-370601.png' 
       },
       streamOptions: [
+        
+        { 
+          name: 'BDIX', 
+          url: 'https://mytools-dyz.pages.dev/hlsplayer/?url=https://mytools-dyz.pages.dev/tv/ch/bdix.m3u8', 
+          type: 'iframe' as const
+        },        
         { 
           name: 'PTV-SD', 
           url: 'https://mytools-dyz.pages.dev/hlsplayer/?url=https://c4s22.vfruitfairy.com/com1/tracks-v1a1/mono.m3u8', 
