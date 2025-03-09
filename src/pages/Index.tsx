@@ -198,7 +198,6 @@ const Index = () => {
           </div>
         </div>
       </div>
-<script id="cid0020000402494732620" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 100%;height: 100%;">{"handle":"livestreambd1","arch":"js","styles":{"a":"000000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"000000","l":"000000","m":"000000","n":"FFFFFF","p":"9.18","q":"000000","r":100,"surl":0,"cnrs":"0.8","fwtickm":1}}</script>
       <Footer />
     </main>
   );
