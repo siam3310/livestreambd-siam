@@ -20,7 +20,7 @@ const Index = () => {
 
   // Predefined match data
   const matches = [
-<!--     {
+{/*      {
       homeTeam: { 
         name: 'Bangladesh', 
         logo: 'https://seeklogo.com/images/B/bangladesh-cricket-board-logo-8B2283D781-seeklogo.com.png' 
@@ -46,8 +46,7 @@ const Index = () => {
           type: 'clappr' as const
         }
       ]
-    },  -->
-
+    },  */}
 
     {
       homeTeam: { 
