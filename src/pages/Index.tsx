@@ -19,7 +19,7 @@ const Index = () => {
 
   // Predefined match data
   const matches = [
-/*      {
+      {
       homeTeam: { 
         name: 'Bangladesh', 
         logo: 'https://seeklogo.com/images/B/bangladesh-cricket-board-logo-8B2283D781-seeklogo.com.png' 
@@ -30,22 +30,22 @@ const Index = () => {
       },
       streamOptions: [
         { 
-          name: 'TSports', 
-          url: 'https://iptvcable.netlify.app/Altogether-007/Tsports.m3u8', 
+          name: 'BDIX-moonplex', 
+          url: 'https://mytools-dyz.pages.dev/hlsplayer/?url=https://mytools-dyz.pages.dev/tv/ch/bdix.m3u8', 
+          type: 'iframe' as const
+        },           
+        { 
+          name: 'PTV-SD', 
+          url: 'https://mytools-dyz.pages.dev/hlsplayer/?url=https://c4s22.vfruitfairy.com/com1/tracks-v1a1/mono.m3u8', 
           type: 'iframe' as const
         },
         { 
-          name: 'Official', 
-          url: 'https://freecatv.pages.dev/gdplayer?player=plyr&provider=rand&format=video%2Fmp4&link=https://iptvcable.netlify.app/Altogether-007/Tsports.m3u8', 
+          name: 'Willow-SD', 
+          url: 'https://mytools-dyz.pages.dev/hlsplayer/?url=https://zekonew.iosplayer.ru/zeko/premium346/mono.m3u8?token=none|origin=zekonew.iosplayer.ru&referer=https://qqwebplay.xyz/', 
           type: 'iframe' as const
-        },
-        { 
-          name: 'HD Stream', 
-          url: 'https://hotflixbd.online/willow-cricket/tracks-v1a1/mono.m3u8', 
-          type: 'clappr' as const
         }
       ]
-    },  */
+    },
 
     {
       homeTeam: { 
@@ -62,17 +62,7 @@ const Index = () => {
           name: 'BDIX-moonplex', 
           url: 'https://mytools-dyz.pages.dev/hlsplayer/?url=https://mytools-dyz.pages.dev/tv/ch/bdix.m3u8', 
           type: 'iframe' as const
-        },  
-        { 
-          name: 'Geo Super', 
-          url: 'https://mytools-dyz.pages.dev/tv/channel/mpd.html', 
-          type: 'iframe' as const
-        },         
-        { 
-          name: 'PTV-SD', 
-          url: 'https://mytools-dyz.pages.dev/hlsplayer/?url=https://c4s22.vfruitfairy.com/com1/tracks-v1a1/mono.m3u8', 
-          type: 'iframe' as const
-        },
+        }, 
         { 
           name: 'Willow-SD', 
           url: 'https://mytools-dyz.pages.dev/hlsplayer/?url=https://zekonew.iosplayer.ru/zeko/premium346/mono.m3u8?token=none|origin=zekonew.iosplayer.ru&referer=https://qqwebplay.xyz/', 
